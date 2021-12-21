@@ -19,15 +19,28 @@ header{
 
 .date{
     color: #777;
+    text-align: left;
 }
 
 
 h1{
     text-align: center;
+    padding-bottom: 1em;
 }
 
-h2, h4{
+h2, h4, h5{
     font-family: Roboto Slab;
+    text-align: left;
+}
+
+h2{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+h5{
+    color: #dd3232;
+    padding-bottom: 1.5em;;
 }
 
 .newspaper-container{
@@ -56,8 +69,21 @@ li{
 }
 
 main p{
-    color: #dd3232;
-    /* border-bottom: solid 2px grey; */
+    border-bottom: solid 2px grey;
+    padding: 1em;
+}
+section p{
+    padding-top: 1em;
+}
+
+p{
+    /* color: #dd3232; */
+    text-align: justify;
+}
+
+main img{
+    width: 100%;
+    height: auto;
 }
 
 .more-articles p{
